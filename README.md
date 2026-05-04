@@ -24,5 +24,5 @@ A página apresenta uma interface limpa e responsiva (adaptável a telemóveis) 
 * JavaScript: Criação de funções, captura de eventos de clique e manipulação de elementos da página em tempo real.
 
 ## Como Executar:
-1. O projeto está online! Podes aceder diretamente através do link do GitHub Pages disponível no painel lateral deste repositório (em "Environments" ou "Deployments").
+1. O projeto está online! Podes aceder diretamente através do link do GitHub Pages disponível no painel lateral deste repositório (em "Deployments").
 2. Preenche os campos e clica nos botões para veres o JavaScript em ação.
