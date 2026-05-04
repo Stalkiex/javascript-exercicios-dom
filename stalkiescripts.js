@@ -9,7 +9,6 @@ function imagem1() {
 }
 
 function imagem2() {
-    document.getElementById("html.jpg")
     document.getElementById("myImage").src = "html.jpg"; 
 }
 
