@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de DOM</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 24px; }
+        button { padding: 8px 12px; margin: 4px; cursor: pointer; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    
+    <h2>O que o JavaScript pode fazer?</h2>
+    <p id="demo">JavaScript pode mudar o conteúdo HTML.</p>
+    <button type="button" onclick="mudarConteudo();">Clicar aqui!</button>
+   
+    <hr>
+
+    <h2>O que o JavaScript consegue fazer?</h2>
+    <p>JavaScript consegue alterar o valor dos atributos.</p>
+    <p>Neste caso altera a imagem mostrada no ecrã.</p>
+    <button type="button" onclick="imagem1();">Boneco</button>
+    <img id="myImage" src="boneco.jpg" style="width:100px; display:block; margin: 10px 0;">
+    <button type="button" onclick="imagem2();">HTML</button>
+  
+    <hr>
+
+    <h2>Mudar o CSS</h2>
+    <p id="demo2">JavaScript pode mudar o estilo de um elemento HTML.</p>
+    <button onclick="estiloNormal();">Estilo Normal</button>
+    <button onclick="estiloGrande();">Ficar Grande e Vermelho</button>
+
+    <hr>
+
+    <h2>Esconder e Mostrar</h2>
+    <p id="demo3">Olha para mim, eu posso desaparecer!</p>
+    <button onclick="esconder();">Esconder</button>
+    <button onclick="mostrar();">Mostrar</button>
+
+    
+    <script src="stalkiescripts.js"></script>
+
+</body>
+</html>
