@@ -1,28 +1,26 @@
 # Ficha de Exercícios JavaScript & DOM
 
-Uma página web interativa desenvolvida com HTML, CSS e JavaScript. Este projeto serve como um laboratório de testes para aplicar conceitos fundamentais de programação e manipulação do DOM (Document Object Model), ligando elementos visuais a lógica de *backend* no navegador.
+Uma página web interativa desenvolvida com HTML, CSS e JavaScript. Este projeto serve como um laboratório de testes para aplicar conceitos fundamentais de programação e manipulação do DOM (Document Object Model), ligando elementos visuais a lógica no navegador.
 
-## Funcionalidades
+## Funcionalidades:
 
-A página apresenta uma interface limpa e responsiva (adaptável a telemóveis) com várias secções interativas. O utilizador insere dados e o JavaScript processa e devolve o resultado em tempo real nas seguintes operações:
+O projeto está dividido em duas partes principais:
 
-*Matemática Básica: 
-  * Cálculo do quadrado de um número.
-  * Subtração entre dois valores numéricos.
-    
-*Lógica de Comparação: 
-  * Avaliação e devolução do maior entre dois números.
-  * Verificação de idade para determinar maioridade com mensagens dinâmicas.
-    
-*Manipulação de Strings (Texto):
-  * Contagem automática do número de caracteres numa frase ou palavra.
-  * Conversão de texto introduzido pelo utilizador para letras MAIÚSCULAS.
+### 1. Exercícios de Lógica ("index.html")
+* Matemática: Cálculo do quadrado de um número e subtração entre valores.
+* Lógica: Avaliação do maior entre dois números e verificação de maioridade.
+* Texto: Contagem de caracteres e conversão automática para MAIÚSCULAS.
+
+### 2. Manipulação de Elementos ("exemplo.html")
+* Troca de Imagens: Alteração dinâmica do atributo "src" para alternar entre imagens.
+* Estilos em Tempo Real: Mudança de cores e tamanhos de fonte via JavaScript.
+* Visibilidade: Funções para esconder e mostrar parágrafos inteiros.
 
 ## Tecnologias Utilizadas:
-* HTML5: Estruturação semântica da página e formulários de *input*.
-* CSS3: Estilização interna, *Flexbox* para alinhamento de elementos e design minimalista (UI/UX).
-* JavaScript: Criação de funções, captura de eventos de clique e manipulação de elementos da página em tempo real.
+* HTML5: Estruturação semântica e criação de formulários.
+* CSS3: Design responsivo e estilização de componentes.
+* JavaScript: Captura de eventos e manipulação dinâmica da árvore do DOM.
 
 ## Como Executar:
-1. O projeto está online! Podes aceder diretamente através do link do GitHub Pages disponível no painel lateral deste repositório (em "Deployments").
-2. Preenche os campos e clica nos botões para veres o JavaScript em ação.
+1. O projeto está online através do GitHub Pages.
+2. Podes aceder à página principal diretamente pelo painel lateral em "Deployments".
