@@ -25,6 +25,4 @@ O projeto está dividido em duas partes principais:
 1. O projeto está online através do GitHub Pages.
 2. Podes aceder à página principal diretamente pelo painel lateral em "Deployments".
 
-## Autor:
 
-Stalkie
